@@ -13,19 +13,22 @@ waves_unbV.csv / unb.csv: Sample files with specific data for unbalance calculat
 
 🚀 Requirements
 To run these scripts, you will need Python 3.x and the following standard scientific libraries:
+```
 pip install numpy pandas matplotlib scipy
-
+```
 
 ⚙️ Usage
 1. Harmonics Analysis (FFT)
 Run the fft.py script to process the waveform data. The script reads the input data and generates the frequency spectrum.
+```
 python fft.py
+```
 
-
-2. Unbalance Calculation
+3. Unbalance Calculation
 Use unb.py to calculate the percentage of voltage or current unbalance from vector or waveform data.
+```
 python unb.py
-
+```
 
 📄 Input Data Format
 Input CSV files are expected to follow a standard time-series structure.
