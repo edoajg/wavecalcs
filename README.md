@@ -35,9 +35,13 @@ Example structure (waves.csv):
 | 0.00 | 220.1 | 219.5 | 220.3 |
 | 0.01 | 225.2 | 215.1 | 224.8 |
 | ... | ... | ... | ... |
+
+
 Time: Timestamp or sample index.
 PhaseA/B/C: Instantaneous voltage or current values.
+
 🤝 Contributions
 Contributions are welcome. If you wish to improve the efficiency of the FFT algorithm, add visualizations with Matplotlib, or implement new unbalance standards (IEEE/IEC), please feel free to open a Pull Request.
+
 📝 License
 This project is available under the MIT license. See the LICENSE file for more details.
