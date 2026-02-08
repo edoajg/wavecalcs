@@ -23,18 +23,21 @@ pip install numpy pandas matplotlib scipy
 ⚙️ Usage
 
 1. Harmonics Analysis (FFT)
+   
 Run the fft.py script to process the waveform data. The script reads the input data and generates the frequency spectrum.
 ```
 python fft.py
 ```
 
-3. Unbalance Calculation
+2. Unbalance Calculation
+   
 Use unb.py to calculate the percentage of voltage or current unbalance from vector or waveform data.
 ```
 python unb.py
 ```
 
 📄 Input Data Format
+
 Input CSV files are expected to follow a standard time-series structure.
 Example structure (waves.csv):
 | Time | PhaseA | PhaseB | PhaseC |
@@ -45,10 +48,8 @@ Example structure (waves.csv):
 
 
 Time: Timestamp or sample index.
+
 PhaseA/B/C: Instantaneous voltage or current values.
 
 🤝 Contributions
 Contributions are welcome. If you wish to improve the efficiency of the FFT algorithm, add visualizations with Matplotlib, or implement new unbalance standards (IEEE/IEC), please feel free to open a Pull Request.
-
-📝 License
-This project is available under the MIT license. See the LICENSE file for more details.
