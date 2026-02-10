@@ -47,6 +47,7 @@ Example structure (waves.csv):
 | ... | ... | ... | ... |
 
 
+
 Time: Timestamp or sample index.
 
 PhaseA/B/C: Instantaneous voltage or current values.
