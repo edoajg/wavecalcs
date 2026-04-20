@@ -1,4 +1,4 @@
-wavecalcs is a collection of Python scripts designed for power quality analysis, specifically focused on Fast Fourier Transform (FFT) calculations for harmonics and unbalance calculations in three-phase power systems.
+Wavecalcs is a collection of Python scripts designed for power quality analysis, specifically focused on Fast Fourier Transform (FFT) calculations for harmonics and unbalance calculations according to Fortescue's symmetrical components theorem in three-phase power systems.
 
 📋 Description
 
@@ -53,4 +53,5 @@ Time: Timestamp or sample index.
 PhaseA/B/C: Instantaneous voltage or current values.
 
 🤝 Contributions
+
 Contributions are welcome. If you wish to improve the efficiency of the FFT algorithm, add visualizations with Matplotlib, or implement new unbalance standards (IEEE/IEC), please feel free to open a Pull Request.
